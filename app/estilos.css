@@ -1,0 +1,147 @@
+.contenedor1{
+	width: 100%;
+	height:650px;
+	background-image: url(https://www.venus.com.py/wp-content/uploads/2017/03/16939583_10154687084116144_2303851889741051227_n.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+
+
+.contenedorlogo {
+	width: 20%;
+	height: 50px;
+	background-image: url(http://salpimenta.com.ar/wp-content/uploads/2015/06/HAMBUR.jpg);
+	background-size:contain;
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	margin-left: 30px;
+}
+
+ .texto1 {
+	width:50% ;
+	font-size: 30px;
+	color:white;
+	margin:200px 490px;
+	font-size: 44px;
+	
+}
+
+.cajalinea1 {
+	width: 10%;
+	border: 1px solid white;
+	color:white ;
+	margin-top:-180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cajatexto1{
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	margin-top:20px;
+	
+}
+
+/*CONFIGURACION DE LA LISTA MENU ENLAZADO*/
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+/*CONFIGURACION DE LA LISTA*/
+ul {
+	display: inline;
+	float: right;
+	margin-right:25px;
+	margin-top: -20px;
+	
+}
+
+li {
+	color: white;
+	float: left;
+	margin-left: 25px;
+	font-weight: bold;
+}
+
+/*CONFIGURACION DEL SEGUNDO BLOQUE*/
+
+.caja1{
+	width: 50%;
+	height:300px;
+	float: left;
+	background-color:#d03b40;
+}
+
+.caja2{
+	width: 50%;
+	height:300px;
+	background-color: #ded6c0;
+	float: left;
+}
+
+.cajatexto2{
+	width: 50%;
+	height: 50px;
+	font-size: 28px;
+	color: #f5f0ed;
+	margin:100px auto;
+	font-weight: bold;
+	text-align: center;
+}
+
+.cajatexto3{ 
+	width: 60%;
+	height: 90px;
+	font-size: 16px;
+	margin-top:-80px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #f5f0ed;
+	text-align: center;
+}
+
+.cajatexto4 {
+	width: 50%;
+	height: 50px;
+	font-size: 28px;
+	color: #d03b40;
+	text-align: center;
+	margin: 100px auto ;
+	font-weight: bold;
+}
+
+.cajatexto5 {
+	width: 60%;
+	right: 90px;
+	font-size: 16px;
+	margin-top: -80px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #d03b40;
+	text-align: center;
+}
+/*CONFIGURACION DE TERCER BLOQUE*/
+
+.contenedor2{
+	width: 100%;
+	height: 600px;
+	background-image: url(https://www.greenpeace.org/static/planet4-colombia-stateless/2020/06/fd2920e2-blog1-1024x683.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 30px;
+}
+
+.titulo2 {
+	width:50% ;
+	font-size: 30px;
+	color:white;
+	font-size: 44px;
+
+}
