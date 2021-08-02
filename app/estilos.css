@@ -1,7 +1,7 @@
 .contenedor1 {
 	width: 100%;
 	height: 650px;
-	background-image: url(app/Fondo1.jpg);
+	background-image: url('app/Fondo1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -11,7 +11,7 @@
 .contenedorlogo {
 	width: 20%;
 	height: 50px;
-	background-image: url(app/Logo.png);
+	background-image: url('app/Logo.png');
 	background-size:contain;
 	background-repeat: no-repeat;
 	margin-top: 0px;
@@ -132,7 +132,7 @@ li {
 .contenedor2{
 	width: 100%;
 	height: 600px;
-	background-image: url(https://www.greenpeace.org/static/planet4-colombia-stateless/2020/06/fd2920e2-blog1-1024x683.jpg);
+	background-image: url('https://www.greenpeace.org/static/planet4-colombia-stateless/2020/06/fd2920e2-blog1-1024x683.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top: 30px;
