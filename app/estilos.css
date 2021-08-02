@@ -11,7 +11,7 @@
 .contenedorlogo {
 	width: 20%;
 	height: 50px;
-	background-image: url(http://salpimenta.com.ar/wp-content/uploads/2015/06/HAMBUR.jpg);
+	background-image: url('app/hamb.jpg');
 	background-size:contain;
 	background-repeat: no-repeat;
 	margin-top: 0px;
