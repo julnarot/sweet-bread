@@ -140,7 +140,6 @@ li {
 	background-image: url(Fondo2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	border:1px solid black;
 	margin-top: 300px;
 
 }
@@ -149,8 +148,9 @@ li {
 	width:50% ;
 	font-size: 30px;
 	color:white;
-	margin:200px 490px;
 	font-size: 44px;
+	padding-top: 200px;
+	padding-left: 450px;
 }
 
 .cajalinea2 {
@@ -159,6 +159,23 @@ li {
 	color:white ;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: -190px;
+	margin-top: 10px;
+}
 
+.cajatexto6 {
+	width: 50%;
+	height: 50px;
+	font-size: 16px;
+	color:white;
+	margin-left:325px;
+	margin-top:15px;
+	text-align: center;
+}
+
+.boton1{
+	border:5px solid white;
+	width: 20%;
+	height: 30px;
+	color:white;
+	margin-left: 400px;
 }
