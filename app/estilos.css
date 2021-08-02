@@ -1,7 +1,7 @@
 .contenedor1 {
 	width: 100%;
 	height: 650px;
-	background-image: url(https://www.venus.com.py/wp-content/uploads/2017/03/16939583_10154687084116144_2303851889741051227_n.jpg);
+	background-image: url(../imagenes/Fondo1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 
@@ -11,7 +11,7 @@
 .contenedorlogo {
 	width: 20%;
 	height: 50px;
-	background-image: url('app/hamb.jpg');
+	background-image: url(../imagenes/Logo.png);
 	background-size:contain;
 	background-repeat: no-repeat;
 	margin-top: 0px;
