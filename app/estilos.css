@@ -1,433 +1,478 @@
 
 body {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	line-height: 1;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* inicia el codigo */
 
-*{
-	box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
 
 
-
-body{
-	font-family: 'Open Sans', sans-serif;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
+
 .contenedor1 {
-	width: 100%;
-	height: 650px;
-	background-image: url(Fondo1.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% auto;	
+    /*width: 100%;*/
+    /*height: 650px;*/
+    background-image: url(Fondo1.jpg);
 
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 3px;
+    padding-bottom: 35px
 }
 
 .contenedorlogo {
-	width: 20%;
-	height: 50px;
-	background-image: url(Logo.png);
-	background-size:contain;
-	background-repeat: no-repeat;
-	position: relative;
-	top: 15px;
-	left: 22px;
+    width: 20%;
+    height: 50px;
+    background-image: url(Logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 15px;
+    left: 22px;
+}
+
+.contenedorlogo2 {
+    width: 20%;
+    height: 50px;
+    background-image: url(logo2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 15px;
+    left: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+.navegacion {
+    display: block;
 }
 
 .texto1 {
-	width:50% ;
-	font-size: 30px;
-	color:white;
-	margin:200px 320px;
-	font-size: 44px;
-	text-align: center;
+    /*width:50% ;*/
+    font-size: 30px;
+    color: white;
+    /*margin:200px 320px;*/
+    margin: 90px;
+    font-size: 44px;
+    /*text-align: center;*/
 }
 
 .cajalinea1 {
-	width: 10%;
-	border: 1px solid white;
-	color:white ;
-	margin-top:-180px;
-	margin-left: auto;
-	margin-right: auto;
+    width: 96px;
+    border: 1px solid white;
+    color: white;
+    /*margin-top:-180px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
 }
 
-.cajatexto1{
-	color: white;
-	font-size: 16px;
-	text-align: center;
-	margin-top:20px;
-	font-family: "open sans regular","open sans extrabold";
+.cajatexto1 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "open sans regular", "open sans extrabold";
 }
 
 /*CONFIGURACION DE LA LISTA MENU ENLAZADO*/
 
 a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
-
-
 
 
 /*CONFIGURACION DE LA LISTA*/
 ul {
-	display: inline;
-	float: right;
-	margin-right:25px;
-	margin-top: -20px;
+    display: inline;
+    float: right;
+    margin-right: 25px;
+    margin-top: -20px;
 
 }
 
 li {
-	color: white;
-	float: left;
-	margin-left: 25px;
-	font-weight: bold;
-	list-style: none;
+    color: white;
+    float: left;
+    margin-left: 25px;
+    font-weight: bold;
+    list-style: none;
 }
 
 /*CONFIGURACION DEL SEGUNDO BLOQUE*/
 
-.caja1{
-	width: 50%;
-	height:300px;
-	float: left;
-	background-color:#d03b40;
+.caja1 {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: #d03b40;
 }
 
-.caja2{
-	width: 50%;
-	height:300px;
-	background-color: #ded6c0;
-	float: left;
+.caja2 {
+    width: 50%;
+    height: 300px;
+    background-color: #ded6c0;
+    float: left;
 }
 
-.cajatexto2{
-	width: 50%;
-	height: 50px;
-	font-size: 28px;
-	color: #f5f0ed;
-	margin:80px auto;
-	font-weight: bold;
-	text-align: center;
+.cajatexto2 {
+    width: 50%;
+    height: 50px;
+    font-size: 28px;
+    color: #f5f0ed;
+    margin: 80px auto;
+    font-weight: bold;
+    text-align: center;
 }
 
-.cajatexto3{
-	width: 70%;
-	height: 90px;
-	font-size: 16px;
-	margin:-40px auto;
-	color: #f5f0ed;
-	text-align: center;
+.cajatexto3 {
+    width: 70%;
+    height: 90px;
+    font-size: 16px;
+    margin: -40px auto;
+    color: #f5f0ed;
+    text-align: center;
 
 }
 
 .cajatexto4 {
-	width: 60%;
-	height: 50px;
-	font-size: 28px;
-	color: #d03b40;
-	margin:80px auto;
-	font-weight: bold;
-	text-align: center;
+    width: 60%;
+    height: 50px;
+    font-size: 28px;
+    color: #d03b40;
+    margin: 80px auto;
+    font-weight: bold;
+    text-align: center;
 }
 
 .cajatexto5 {
-	width: 70%;
-	right: 90px;
-	font-size: 16px;
-	margin:-40px auto;
-	color: #d03b40;
-	text-align: center;
+    width: 70%;
+    right: 90px;
+    font-size: 16px;
+    margin: -40px auto;
+    color: #d03b40;
+    text-align: center;
 }
+
 /*CONFIGURACION DE TERCER BLOQUE*/
 
-.contenedor2{
-	width: 100%;
-	height: 600px;
-	background-image: url(Fondo2.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	margin-top: 300px;
+.contenedor2 {
+    width: 100%;
+    height: 600px;
+    background-image: url(Fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-top: 300px;
 }
 
 .titulo2 {
-	width:50% ;
-	font-size: 30px;
-	color:white;
-	font-size: 44px;
-	padding-top: 200px;
-	padding-left: 470px;
+    width: 50%;
+    font-size: 30px;
+    color: white;
+    font-size: 44px;
+    padding-top: 200px;
+    padding-left: 470px;
 }
 
 .cajalinea2 {
-	width: 10%;
-	border: 1px solid white;
-	color:white ;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 25px;
+    width: 10%;
+    border: 1px solid white;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
 }
 
 .cajatexto6 {
-	width: 50%;
-	height: 50px;
-	font-size: 16px;
-	color:white;
-	margin-left:345px;
-	margin-top:25px;
-	text-align: center;
+    width: 50%;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    margin-left: 345px;
+    margin-top: 25px;
+    text-align: center;
 }
 
-.boton1{
-	border:3px solid white;
-	width: 20%;
-	height: 30px;
-	margin-left: 540px;
-	color: white;
-	text-align: center;
-	margin-top: 50px;
-	padding-top:12px;
-	font-size: 14px;
+.boton1 {
+    border: 3px solid white;
+    width: 20%;
+    height: 30px;
+    margin-left: 540px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 12px;
+    font-size: 14px;
 }
 
 /*CONFIGURACION CUARTO BLOQUE */
 
 
-.contenedor3{
-	width: 100%;
-	height: 600px;
+.contenedor3 {
+    width: 100%;
+    height: 600px;
 }
 
-.cajapan{
-	width: 50%;
-	height: 300px;
-	background-color: #f5f0ed;
-	float:left;
+.cajapan {
+    width: 50%;
+    height: 300px;
+    background-color: #f5f0ed;
+    float: left;
 
 
 }
-.cajatortas{
-	width: 50%;
-	height: 300px;
-	background-color: #f5f0ed;
-	float: right;
+
+.cajatortas {
+    width: 50%;
+    height: 300px;
+    background-color: #f5f0ed;
+    float: right;
 
 }
-.cajapastel{
-	width: 50%;
-	height: 300px;
-	background-color: #f5f0ed;
-	float: left;
+
+.cajapastel {
+    width: 50%;
+    height: 300px;
+    background-color: #f5f0ed;
+    float: left;
 
 }
-.cajatrigo{
-	width: 50%;
-	height: 300px;
-	background-color: #f5f0ed;
-	float: right;
+
+.cajatrigo {
+    width: 50%;
+    height: 300px;
+    background-color: #f5f0ed;
+    float: right;
 }
 
-.iconopan{
-	width:50%;
-	height: 150px;
-	background-size: contain;
-	background-image:url(../app/Icono1.png);
-	background-repeat: no-repeat;
-	margin-top: 50px;
-	margin-left: 30px;
+.iconopan {
+    width: 50%;
+    height: 150px;
+    background-size: contain;
+    background-image: url(../app/Icono1.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
 .iconotortas {
-	width:50%;
-	height: 150px;
-	background-size: contain;
-	background-image: url(../app/Icono2.png);
-	background-repeat: no-repeat;
-	margin-top: 50px;
-	margin-left: 30px;
+    width: 50%;
+    height: 150px;
+    background-size: contain;
+    background-image: url(../app/Icono2.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
-.iconopastel{
-	width:50%;
-	height: 150px;
-	background-size: contain;
-	background-image:url(../app/Icono3.png);
-	background-repeat: no-repeat;
-	margin-top: 50px;
-	margin-left: 30px;
+.iconopastel {
+    width: 50%;
+    height: 150px;
+    background-size: contain;
+    background-image: url(../app/Icono3.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
-.iconotrigo{
-	width:50%;
-	height: 150px;
-	background-size: contain;
-	background-image: url(../app/Icono4.png);
-	background-repeat: no-repeat;
-	margin-top: 50px;
-	margin-left: 30px;
+.iconotrigo {
+    width: 50%;
+    height: 150px;
+    background-size: contain;
+    background-image: url(../app/Icono4.png);
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
 .titulopan {
-	width: 40%;
-	height: 30px;
-	font-size: 24px;
-	text-align: center;
-	margin-left: 200px;
-	margin-top:-150px;
+    width: 40%;
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: -150px;
 }
 
 .titulotortas {
-	width: 50%;
-	height: 30px;
-	font-size: 24px;
-	text-align: center;
-	margin-left: 200px;
-	margin-top:-150px;
+    width: 50%;
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: -150px;
 }
 
 .titulopastel {
-	width: 55%;
-	height: 30px;
-	font-size: 24px;
-	text-align: center;
-	margin-left: 200px;
-	margin-top:-150px;
+    width: 55%;
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: -150px;
 }
 
 .titulotrigo {
-	width: 55%;
-	height: 30px;
-	font-size: 24px;
-	text-align: center;
-	margin-left: 206px;
-	margin-top:-150px;
+    width: 55%;
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 206px;
+    margin-top: -150px;
 }
 
-.textopan{
-	width: 60%;
-	height: 200px;
-	margin-left: 220px;
-	margin-top: 10px;
-	font-size: 16px;
+.textopan {
+    width: 60%;
+    height: 200px;
+    margin-left: 220px;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
-.textotortas{
-	width: 60%;
-	height: 200px;
-	margin-left: 230px;
-	font-size: 16px;
-	margin-top: 10px;
+.textotortas {
+    width: 60%;
+    height: 200px;
+    margin-left: 230px;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
-.textopastel{
-	width: 60%;
-	height: 200px;
-	margin-left: 220px;
-	margin-top:10px;
-	font-size: 16px;
+.textopastel {
+    width: 60%;
+    height: 200px;
+    margin-left: 220px;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
-.textotrigo{
-	width: 60%;
-	height: 200px;
-	margin-left: 230px;
-	margin-top: 10px;
-	font-size: 16px;
+.textotrigo {
+    width: 60%;
+    height: 200px;
+    margin-left: 230px;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 /*CONFIGURACIÓN DE QUINTO BLOQUE */
 
 .contenedor4 {
-	width: 100%;
-	height: 350px;
+    width: 100%;
+    height: 350px;
 }
 
 .cajacontacto {
-	width: 50%;
-	height: 350px;
-	float: left;
-	background-color:#ded6c0;
+    width: 50%;
+    height: 350px;
+    float: left;
+    background-color: #ded6c0;
 }
 
 .cajaubicacion {
-	width: 50%;
-	height: 350px;
-	float: right;
-	background-color: #d03b40;
+    width: 50%;
+    height: 350px;
+    float: right;
+    background-color: #d03b40;
 }
 
 .contenedor5 {
-	width: 100%;
-	height: 150px;
-	background-color: #241d1b;
+    width: 100%;
+    height: 150px;
+    background-color: #241d1b;
 }
 
 .titulocontacto {
-	width: 50%;
-	height: 30px;
-	color: #d03b40;
-	text-align: center;
-	margin-left:130px;
-	margin-top: 90px;
-	font-size: 28px;
+    width: 50%;
+    height: 30px;
+    color: #d03b40;
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 90px;
+    font-size: 28px;
 }
 
 .textocontacto {
-	width: 50%;
-	height: 80px;
-	margin-top: 60px;
-	margin-left: 130px;
-	text-align: center;
-	color: #d03b40;
-	font-size: 16px;
+    width: 50%;
+    height: 80px;
+    margin-top: 60px;
+    margin-left: 130px;
+    text-align: center;
+    color: #d03b40;
+    font-size: 16px;
 }
 
 .tituloubicacion {
-	width: 50%;
-	height: 30px;
-	color: #f5f0ed;
-	text-align: center;
-	margin-left:180px;
-	margin-top: 90px;
-	font-size: 28px;
+    width: 50%;
+    height: 30px;
+    color: #f5f0ed;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 90px;
+    font-size: 28px;
 }
 
 .textoubicacion {
-	width: 50%;
-	height: 80px;
-	margin-top: 60px;
-	margin-left: 180px;
-	text-align: center;
-	color: #f5f0ed;
-	font-size: 16px;
+    width: 50%;
+    height: 80px;
+    margin-top: 60px;
+    margin-left: 180px;
+    text-align: center;
+    color: #f5f0ed;
+    font-size: 16px;
 }
 
 .textoderechos {
-	width: 100%;
-	height: 80px;
-	color: white;
-	padding-top:65px;
-	padding-left: 30px;
-}    
-	
- }
+    width: 100%;
+    height: 80px;
+    color: white;
+    padding-top: 65px;
+    padding-left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contenedorlogo {
+        display: none;
+    }
+
+    .navegacion {
+        display: none;
+    }
+
+    .texto1 {
+        font-size: 27px;
+    }
+
+    .contenedorlogo2 {
+        display: block;
+    }
+}
