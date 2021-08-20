@@ -37,11 +37,9 @@ body {
 }
 
 .contenedor1 {
-    /*width: 100%;*/
-    /*height: 650px;*/
+    width: 100%;
+    height: 650px;
     background-image: url(Fondo1.jpg);
-
-
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -61,40 +59,26 @@ body {
     left: 22px;
 }
 
-.contenedorlogo2 {
-    width: 20%;
-    height: 50px;
-    background-image: url(logo2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    top: 15px;
-    left: 22px;
-    cursor: pointer;
-    display: none;
-}
 
 .navegacion {
     display: block;
 }
 
 .texto1 {
-    /*width:50% ;*/
     font-size: 30px;
     color: white;
-    /*margin:200px 320px;*/
     margin: 90px;
     font-size: 44px;
-    /*text-align: center;*/
+    
+    
 }
 
 .cajalinea1 {
     width: 96px;
     border: 1px solid white;
     color: white;
-    /*margin-top:-180px;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
+  
+    
 }
 
 .cajatexto1 {
@@ -189,11 +173,15 @@ li {
 
 .contenedor2 {
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-image: url(Fondo2.jpg);
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-attachment: fixed;
+    background-size:cover;
     margin-top: 300px;
+ 
+
 }
 
 .titulo2 {
@@ -203,6 +191,7 @@ li {
     font-size: 44px;
     padding-top: 200px;
     padding-left: 470px;
+
 }
 
 .cajalinea2 {
@@ -221,7 +210,7 @@ li {
     color: white;
     margin-left: 345px;
     margin-top: 25px;
-    text-align: center;
+
 }
 
 .boton1 {
@@ -230,7 +219,6 @@ li {
     height: 30px;
     margin-left: 540px;
     color: white;
-    text-align: center;
     margin-top: 50px;
     padding-top: 12px;
     font-size: 14px;
@@ -460,19 +448,49 @@ li {
 }
 
 @media only screen and (max-width: 600px) {
-    .contenedorlogo {
-        display: none;
-    }
+.caja1{
+    width: 100%;
+    float: none;
+    margin-top:-80px;
+}
+.cajatexto2, .cajatexto4{
+    padding-top:70px ;
+    font-size: 22px;
+}
 
-    .navegacion {
-        display: none;
-    }
+.cajatexto3, .cajatexto5{
+    padding-top: 30px;
+}
 
-    .texto1 {
-        font-size: 27px;
-    }
+.caja2{
+    width: 100%;
+    float: none;
+    margin-top: -80px;
+  }
 
-    .contenedorlogo2 {
-        display: block;
-    }
+.contenedor2{
+   margin:auto;  
+}
+
+.cajapan , .cajatortas , .cajatrigo , .cajapastel {
+    width: 100%;
+    float:none;
+    margin-top: -50px;
+}
+
+.cajacontacto{
+    width: 100%;
+    float: none;
+    margin-top:600px ;
+}
+
+.cajaubicacion{
+    width: 100%;
+    float: none;
+    margin-top: -90px;
+}
+
+.contenedor5{
+    width: 100%;
+    margin-top: 350px;
 }
