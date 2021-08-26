@@ -64,29 +64,31 @@ body {
     display: block;
 }
 
-.texto1 {
+h1 {
     font-size: 30px;
     color: white;
-    margin: 90px;
+    margin: 150px auto;
     font-size: 44px;
     
     
 }
 
 .cajalinea1 {
-    width: 96px;
+    width: 110px;
     border: 1px solid white;
     color: white;
+    margin-top: -125px;
   
     
 }
 
 .cajatexto1 {
+    width: 38%;
+    height: 50px;
     color: white;
     font-size: 16px;
     text-align: center;
-    margin-top: 20px;
-    font-family: "open sans regular", "open sans extrabold";
+    margin: 20px auto;
 }
 
 /*CONFIGURACION DE LA LISTA MENU ENLAZADO*/
@@ -133,10 +135,9 @@ li {
 .cajatexto2 {
     width: 50%;
     height: 50px;
-    font-size: 28px;
+    font-size: 16px;
     color: #f5f0ed;
     margin: 80px auto;
-    font-weight: bold;
     text-align: center;
 }
 
@@ -184,18 +185,17 @@ li {
 
 }
 
-.titulo2 {
-    width: 50%;
-    font-size: 30px;
+h2 {
+    width: 100%;
     color: white;
+    padding-top:250px;
     font-size: 44px;
-    padding-top: 200px;
-    padding-left: 470px;
+    text-align: center;
 
 }
 
 .cajalinea2 {
-    width: 10%;
+    width: 20%;
     border: 1px solid white;
     color: white;
     margin-left: auto;
@@ -204,13 +204,12 @@ li {
 }
 
 .cajatexto6 {
-    width: 50%;
+    width: 40%;
     height: 50px;
     font-size: 16px;
     color: white;
-    margin-left: 345px;
-    margin-top: 25px;
-
+    text-align:center ;
+    margin: 25px auto;
 }
 
 .boton1 {
@@ -447,11 +446,14 @@ li {
     padding-left: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 .caja1{
     width: 100%;
     float: none;
     margin-top:-80px;
+}
+.cajatexto1 {
+    width: 61%;
 }
 .cajatexto2, .cajatexto4{
     padding-top:70px ;
@@ -462,6 +464,12 @@ li {
     padding-top: 30px;
 }
 
+
+.cajatexto6 {
+    width: 70%;
+    font-size:18px;
+    text-align:center;
+}
 .caja2{
     width: 100%;
     float: none;
@@ -469,13 +477,30 @@ li {
   }
 
 .contenedor2{
-   margin:auto;  
+margin-top: -33px;  
 }
 
 .cajapan , .cajatortas , .cajatrigo , .cajapastel {
     width: 100%;
+    height: auto;
     float:none;
-    margin-top: -50px;
+    padding-top: 15px;
+    border:1px solid black;
+}
+
+.iconopan , .iconopastel , .iconotortas , .iconotrigo {
+    margin: 0px auto;
+    width: 40%;
+}
+.titulopan , .titulopastel , .titulotortas , .titulotrigo {
+    margin-top:40px;
+    width: 70%;
+    margin-left:50px;
+    font-weight: bold;
+}
+.textopan , .textotortas , .textotrigo , .textopastel {
+    margin: 10px auto;
+    margin-left: 80px;
 }
 
 .cajacontacto{
@@ -493,4 +518,12 @@ li {
 .contenedor5{
     width: 100%;
     margin-top: 350px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h1{
+    font-size: 38px;
 }
