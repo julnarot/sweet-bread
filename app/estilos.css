@@ -133,22 +133,21 @@ li {
 }
 
 .cajatexto2 {
-    width: 50%;
+    width: 40%;
     height: 50px;
-    font-size: 16px;
+    font-size: 28px;
     color: #f5f0ed;
     margin: 80px auto;
     text-align: center;
 }
 
 .cajatexto3 {
-    width: 70%;
-    height: 90px;
+    width: 65%;
+    height: auto;
     font-size: 16px;
     margin: -40px auto;
     color: #f5f0ed;
     text-align: center;
-
 }
 
 .cajatexto4 {
@@ -162,8 +161,8 @@ li {
 }
 
 .cajatexto5 {
-    width: 70%;
-    right: 90px;
+    width: 68%;
+    right: auto;
     font-size: 16px;
     margin: -40px auto;
     color: #d03b40;
@@ -446,73 +445,121 @@ h2 {
     padding-left: 30px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
+
+/*media query 1er bloque */
+
 .caja1{
     width: 100%;
     float: none;
     margin-top:-80px;
 }
 .cajatexto1 {
-    width: 61%;
-}
-.cajatexto2, .cajatexto4{
-    padding-top:70px ;
-    font-size: 22px;
-}
-
-.cajatexto3, .cajatexto5{
-    padding-top: 30px;
-}
-
-
-.cajatexto6 {
     width: 70%;
-    font-size:18px;
-    text-align:center;
+    height: auto;
 }
+
+/*media query 2do bloque*/
 .caja2{
     width: 100%;
     float: none;
     margin-top: -80px;
   }
 
-.contenedor2{
-margin-top: -33px;  
+.cajatexto2 {
+    width: 70%;
+    padding-top: 50px;
 }
+
+.cajatexto3{
+    padding-top: 55px;
+    width: 68%;
+}
+
+.cajatexto5{
+    padding-top: 40px;
+    width: 68%;
+}
+
+
+ .cajatexto4{
+    padding-top:70px ;
+    font-size: 22px;
+}
+
+/*media query 3er bloque */
+
+.contenedor2{
+    margin-top: -33px;  
+    }
+
+.cajatexto6 {
+    width: 75%;
+    font-size:18px;
+    text-align:center;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.boton1{
+    width: 60%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*media query 4to bloque */
 
 .cajapan , .cajatortas , .cajatrigo , .cajapastel {
     width: 100%;
     height: auto;
     float:none;
     padding-top: 15px;
-    border:1px solid black;
+    margin-top: -50px;
+    
 }
 
 .iconopan , .iconopastel , .iconotortas , .iconotrigo {
-    margin: 0px auto;
-    width: 40%;
+    margin: 30px auto;
+    width: 25%;
+    height: 100px;
 }
 .titulopan , .titulopastel , .titulotortas , .titulotrigo {
-    margin-top:40px;
+    margin-top: 10px;
     width: 70%;
     margin-left:50px;
     font-weight: bold;
+    text-align: left;
 }
-.textopan , .textotortas , .textotrigo , .textopastel {
-    margin: 10px auto;
-    margin-left: 80px;
+.textopan , .textotortas{
+    margin: 20px auto;
+    margin-left: 50px;
+    width: 70%;
+    height: 180px;
+    
 }
 
+.textotrigo , .textopastel {
+    margin: 40px auto;
+    margin-left: 50px;
+}
+
+/*media query 5to bloque */
 .cajacontacto{
     width: 100%;
     float: none;
-    margin-top:600px ;
+    margin-top:-280px ;
+    border: 1px solid black;
 }
 
 .cajaubicacion{
     width: 100%;
     float: none;
     margin-top: -90px;
+    border: 1px solid black;
 }
 
 .contenedor5{
@@ -520,10 +567,31 @@ margin-top: -33px;
     margin-top: 350px;
 }
 
-h2{
-    font-size: 40px;
+.organizadorubicacion {
+    width: 50%;
+    border: 1px solid black;
+    
+}
+.organizadorcontacto {
+    width: 100%;
+    height: auto;
+    margin:auto auto;
+    padding-top: 15px;
 }
 
 h1{
     font-size: 38px;
+}
+
+.contenedor4{
+    margin-top: 1308px;
+}
+
+.contenedor6 {
+    margin-top: 90px;
+}
+
+
+
+    
 }
