@@ -1,28 +1,46 @@
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    line-height: 1;
+	line-height: 1;
 }
-
 ol, ul {
-    list-style: none;
+	list-style: none;
 }
-
 blockquote, q {
-    quotes: none;
+	quotes: none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
-    content: none;
+	content: '';
+	content: none;
 }
-
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 /* inicia el codigo */
@@ -462,13 +480,14 @@ h2 {
     font-size: 30px;
 
 }
+
 @media only screen and (max-width: 450px) {
 
 /*media query 1er bloque */
 
 .caja1{
     width: 100%;
-    float: none;
+     float: none;
     margin-top:-80px;
 }
 .cajatexto1 {
@@ -507,7 +526,7 @@ h2 {
 /*media query 3er bloque */
 
 .contenedor2{
-    margin-top: -33px;  
+    margin-top: 0px;  
     }
 
 .cajatexto6 {
@@ -517,9 +536,15 @@ h2 {
 }
 
 h2{
+    width: 100%;
     font-size: 40px;
+    height: 20px;
+    padding-top :150px;
+    
 }
-
+.cajalinea2{
+    margin-top: 70px;
+}
 .boton1{
     width: 60%;
     height: 50px;
@@ -539,18 +564,61 @@ h2{
     
 }
 
-.iconopan , .iconopastel , .iconotortas , .iconotrigo {
-    margin: 30px auto;
+.iconopan  {
+    margin: 40px auto;
     width: 25%;
     height: 100px;
 }
-.titulopan , .titulopastel , .titulotortas , .titulotrigo {
-    margin-top: 10px;
+
+.iconotrigo {
+    margin: -45px auto;
+    width: 25%;
+    height: 100px;
+}
+
+.iconopastel {
+    margin: -60px auto;
+    width: 25%;
+    height: 100px;
+}
+
+.iconotortas{
+    margin:10px auto;
+    width: 25%;
+    height: 100px;
+} 
+.titulopan {
+    margin-top: -10px;
     width: 70%;
     margin-left:50px;
     font-weight: bold;
     text-align: left;
 }
+
+.titulotrigo {
+    margin-top: 60px;
+    width: 70%;
+    margin-left:50px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.titulopastel {
+    margin-top: 75px;
+    width: 70%;
+    margin-left:50px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.titulotortas {
+    margin-top: 20px;
+    width: 70%;
+    margin-left:50px;
+    font-weight: bold;
+    text-align: left;
+}
+
 .textopan , .textotortas{
     margin: 20px auto;
     margin-left: 50px;
@@ -564,17 +632,22 @@ h2{
     margin-left: 50px;
 }
 
+
 /*media query 5to bloque */
 .cajacontacto{
     width: 100%;
     float: none;
-    margin-top:-280px ;
-    border: 1px solid black;
+    margin-top:-500px ;
 
 }
 
+.organizadorcontacto{
+    width: 100%;
+    padding-top: 20px;
+}
+
 .titulocontacto , .textocontacto {
-   margin:80px auto;
+   margin:60px auto;
 }
 
 
@@ -582,9 +655,12 @@ h2{
     width: 100%;
     float: none;
     margin-top: -90px;
-    border: 1px solid black;
 }
 
+.organizadorubicacion {
+    width: 100%;
+    padding-top: 30px;
+}
 .tituloubicacion , .textoubicacion {
     margin: 80px auto;
 }
@@ -600,10 +676,15 @@ h2{
 }
 
 .textoderechos2{
-    width: 100%;
+    width: 70%;
+    height: 10px;
     margin-top: 10px;
-    margin-left:30px;
+    margin-left: 30px;
+    
+}
 
+.textopunto {
+    color: black;
 }
 
 h1{
@@ -616,9 +697,5 @@ h1{
 
 .contenedor6 {
     margin-top: 90px;
-}
-
-
-
-    
+}    
 }
