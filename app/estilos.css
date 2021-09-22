@@ -485,14 +485,26 @@ h2 {
 
 /*media query 1er bloque */
 
+.contenedor1{ 
+    width: 100%;
+    height: auto;
+}
+h1{
+    width: 100%;
+    font-size: 38px; 
+}
+
 .caja1{
     width: 100%;
-     float: none;
+    float: none;
     margin-top:-80px;
 }
 .cajatexto1 {
-    width: 70%;
+    width: 100%;
     height: auto;
+    padding-left: 70px;
+    text-align: center;
+    padding-right: 70px;
 }
 
 /*media query 2do bloque*/
@@ -687,9 +699,6 @@ h2{
     color: black;
 }
 
-h1{
-    font-size: 38px;
-}
 
 .contenedor4{
     margin-top: 1308px;
