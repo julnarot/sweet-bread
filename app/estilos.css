@@ -438,13 +438,30 @@ h2 {
 }
 
 .textoderechos {
-    width: 100%;
+    width: 12%;
     height: 80px;
     color: white;
     padding-top: 65px;
     padding-left: 30px;
 }
 
+.textoderechos2 {
+    width: 20%;
+    height: 80px;
+    color: white;
+    margin-left: 180px;
+    margin-top: -15px;
+}
+
+.textopunto {
+    width: 1%;
+    height: 0px;
+    color: white;
+    margin-top: -96px;
+    margin-left: 165px;
+    font-size: 30px;
+
+}
 @media only screen and (max-width: 450px) {
 
 /*media query 1er bloque */
@@ -553,7 +570,13 @@ h2{
     float: none;
     margin-top:-280px ;
     border: 1px solid black;
+
 }
+
+.titulocontacto , .textocontacto {
+   margin:80px auto;
+}
+
 
 .cajaubicacion{
     width: 100%;
@@ -562,21 +585,25 @@ h2{
     border: 1px solid black;
 }
 
+.tituloubicacion , .textoubicacion {
+    margin: 80px auto;
+}
+
 .contenedor5{
     width: 100%;
     margin-top: 350px;
+    border: 1px solid white;
 }
 
-.organizadorubicacion {
-    width: 50%;
-    border: 1px solid black;
-    
-}
-.organizadorcontacto {
+.textoderechos{
     width: 100%;
-    height: auto;
-    margin:auto auto;
-    padding-top: 15px;
+}
+
+.textoderechos2{
+    width: 100%;
+    margin-top: 10px;
+    margin-left:30px;
+
 }
 
 h1{
