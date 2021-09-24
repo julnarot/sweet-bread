@@ -83,12 +83,12 @@ body {
 }
 
 h1 {
+    width: 100%;
+    text-align: center;
     font-size: 30px;
     color: white;
     margin: 150px auto;
-    font-size: 44px;
-    
-    
+    font-size: 44px;  
 }
 
 .cajalinea1 {
@@ -101,12 +101,16 @@ h1 {
 }
 
 .cajatexto1 {
-    width: 38%;
+    width: 100%;
     height: 50px;
     color: white;
     font-size: 16px;
     text-align: center;
-    margin: 20px auto;
+    padding-left:400px ;
+    padding-right:430px;
+    margin:20px auto;
+    line-height: 1.5;
+
 }
 
 /*CONFIGURACION DE LA LISTA MENU ENLAZADO*/
@@ -138,53 +142,60 @@ li {
 
 .caja1 {
     width: 50%;
-    height: 300px;
+    height: 400px;
     float: left;
     background-color: #d03b40;
 }
 
 .caja2 {
     width: 50%;
-    height: 300px;
+    height: 400px;
     background-color: #ded6c0;
     float: left;
 }
 
 .cajatexto2 {
-    width: 40%;
+    width: 100%;
     height: 50px;
     font-size: 28px;
     color: #f5f0ed;
-    margin: 80px auto;
+    margin: 115px auto;
     text-align: center;
+    line-height: 1.2;
 }
 
 .cajatexto3 {
-    width: 65%;
+    width: 100%;
     height: auto;
     font-size: 16px;
-    margin: -40px auto;
+    margin: -80px auto;
     color: #f5f0ed;
     text-align: center;
+    padding-left: 130px;
+    padding-right: 130px;
+    line-height: 1.5;
 }
 
 .cajatexto4 {
-    width: 60%;
+    width: 100%;
     height: 50px;
     font-size: 28px;
     color: #d03b40;
-    margin: 80px auto;
-    font-weight: bold;
+    margin: 115px auto;
     text-align: center;
+    line-height: 1.2;
 }
 
 .cajatexto5 {
-    width: 68%;
-    right: auto;
+    width: 100%;
+    height: auto;
     font-size: 16px;
-    margin: -40px auto;
+    margin: -80px auto;
     color: #d03b40;
     text-align: center;
+    padding-left: 105px;
+    padding-right: 109px;
+    line-height: 1.5;
 }
 
 /*CONFIGURACION DE TERCER BLOQUE*/
@@ -212,7 +223,7 @@ h2 {
 }
 
 .cajalinea2 {
-    width: 20%;
+    width: 8%;
     border: 1px solid white;
     color: white;
     margin-left: auto;
@@ -227,17 +238,19 @@ h2 {
     color: white;
     text-align:center ;
     margin: 25px auto;
+    line-height: 1.2;
 }
 
 .boton1 {
     border: 3px solid white;
     width: 20%;
-    height: 30px;
+    height: 50px;
     margin-left: 540px;
     color: white;
-    margin-top: 50px;
-    padding-top: 12px;
+    margin-top: 30px;
+    padding-top: 15px;
     font-size: 14px;
+    text-align: center;
 }
 
 /*CONFIGURACION CUARTO BLOQUE */
@@ -245,44 +258,20 @@ h2 {
 
 .contenedor3 {
     width: 100%;
-    height: 600px;
+    height: 500px;
+    border: 1px solid black;
 }
 
 .cajapan {
     width: 50%;
-    height: 300px;
+    height: 250px;
     background-color: #f5f0ed;
     float: left;
-
-
-}
-
-.cajatortas {
-    width: 50%;
-    height: 300px;
-    background-color: #f5f0ed;
-    float: right;
-
-}
-
-.cajapastel {
-    width: 50%;
-    height: 300px;
-    background-color: #f5f0ed;
-    float: left;
-
-}
-
-.cajatrigo {
-    width: 50%;
-    height: 300px;
-    background-color: #f5f0ed;
-    float: right;
 }
 
 .iconopan {
-    width: 50%;
-    height: 150px;
+    width: 30%;
+    height: 160px;
     background-size: contain;
     background-image: url(../app/Icono1.png);
     background-repeat: no-repeat;
@@ -290,9 +279,36 @@ h2 {
     margin-left: 30px;
 }
 
-.iconotortas {
+.titulopan {
     width: 50%;
-    height: 150px;
+    height: 30px;
+    font-size: 24px;
+    text-align: justify;
+    margin-left: 220px;
+    margin-top: -170px;
+    font-weight: bold;    
+}
+
+.textopan {
+    width: 65%;
+    height: 200px;
+    margin-left: 220px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.3;
+    padding-right: 60px;
+}
+
+.cajatortas {
+    width: 50%;
+    height: 250px;
+    background-color: #f5f0ed;
+    float: right;
+}
+
+.iconotortas {
+    width: 30%;
+    height: 160px;
     background-size: contain;
     background-image: url(../app/Icono2.png);
     background-repeat: no-repeat;
@@ -300,92 +316,100 @@ h2 {
     margin-left: 30px;
 }
 
-.iconopastel {
-    width: 50%;
-    height: 150px;
-    background-size: contain;
-    background-image: url(../app/Icono3.png);
-    background-repeat: no-repeat;
-    margin-top: 50px;
-    margin-left: 30px;
-}
-
-.iconotrigo {
-    width: 50%;
-    height: 150px;
-    background-size: contain;
-    background-image: url(../app/Icono4.png);
-    background-repeat: no-repeat;
-    margin-top: 50px;
-    margin-left: 30px;
-}
-
-.titulopan {
-    width: 40%;
-    height: 30px;
-    font-size: 24px;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: -150px;
-}
-
 .titulotortas {
     width: 50%;
     height: 30px;
     font-size: 24px;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: -150px;
-}
-
-.titulopastel {
-    width: 55%;
-    height: 30px;
-    font-size: 24px;
-    text-align: center;
-    margin-left: 200px;
-    margin-top: -150px;
-}
-
-.titulotrigo {
-    width: 55%;
-    height: 30px;
-    font-size: 24px;
-    text-align: center;
-    margin-left: 206px;
-    margin-top: -150px;
-}
-
-.textopan {
-    width: 60%;
-    height: 200px;
+    text-align: justify;
     margin-left: 220px;
-    margin-top: 10px;
-    font-size: 16px;
+    margin-top: -170px;
+    font-weight: bold; 
 }
 
 .textotortas {
-    width: 60%;
-    height: 200px;
-    margin-left: 230px;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.textopastel {
-    width: 60%;
-    height: 200px;
+    width: 65%;
+    height: 100px;
     margin-left: 220px;
     margin-top: 10px;
     font-size: 16px;
+    line-height: 1.3;
+    padding-right: 60px;
+    
+}
+
+.cajapastel {
+    width: 50%;
+    height: 250px;
+    background-color: #f5f0ed;
+    float: left;
+}
+
+.iconopastel {
+    width: 30%;
+    height: 160px;
+    background-size: contain;
+    background-image: url(../app/Icono3.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.titulopastel {
+    width: 50%;
+    height: 30px;
+    font-size: 24px;
+    text-align:justify;
+    margin-left: 220px;
+    margin-top: -170px;
+    font-weight: bold;
+}
+
+.textopastel {
+    width: 65%;
+    height: 100px;
+    margin-left: 220px;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.3;
+    padding-right: 40px;
+}
+
+
+.cajatrigo {
+    width: 50%;
+    height: 250px;
+    background-color: #f5f0ed;
+    float: right;
+}
+
+.iconotrigo {
+    width: 30%;
+    height: 160px;
+    background-size: contain;
+    background-image: url(../app/Icono4.png);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.titulotrigo {
+    width: 60%;
+    height: 30px;
+    font-size: 24px;
+    text-align:justify;
+    margin-left: 220px;
+    margin-top: -170px;
+    font-weight:bold ;
 }
 
 .textotrigo {
-    width: 60%;
-    height: 200px;
-    margin-left: 230px;
+    width: 65%;
+    height: 100px;
+    margin-left: 220px;
     margin-top: 10px;
     font-size: 16px;
+    line-height: 1.3;
+    padding-right: 50px;
 }
 
 /*CONFIGURACIÓN DE QUINTO BLOQUE */
@@ -402,6 +426,25 @@ h2 {
     background-color: #ded6c0;
 }
 
+.titulocontacto {
+    width: 100%;
+    height: 30px;
+    color: #d03b40;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 28px;
+}
+
+.textocontacto {
+    width: 100%;
+    height: 80px;
+    margin-top: 60px;
+    text-align: center;
+    color: #d03b40;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
 .cajaubicacion {
     width: 50%;
     height: 350px;
@@ -415,41 +458,19 @@ h2 {
     background-color: #241d1b;
 }
 
-.titulocontacto {
-    width: 50%;
-    height: 30px;
-    color: #d03b40;
-    text-align: center;
-    margin-left: 130px;
-    margin-top: 90px;
-    font-size: 28px;
-}
-
-.textocontacto {
-    width: 50%;
-    height: 80px;
-    margin-top: 60px;
-    margin-left: 130px;
-    text-align: center;
-    color: #d03b40;
-    font-size: 16px;
-}
-
 .tituloubicacion {
-    width: 50%;
+    width: 100%;
     height: 30px;
     color: #f5f0ed;
     text-align: center;
-    margin-left: 180px;
     margin-top: 90px;
     font-size: 28px;
 }
 
 .textoubicacion {
-    width: 50%;
+    width: 100%;
     height: 80px;
     margin-top: 60px;
-    margin-left: 180px;
     text-align: center;
     color: #f5f0ed;
     font-size: 16px;
@@ -659,6 +680,7 @@ h2{
 }
 
 .titulocontacto , .textocontacto {
+    width: 100%;
    margin:60px auto;
 }
 
