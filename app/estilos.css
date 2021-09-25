@@ -86,24 +86,23 @@ h1 {
     width: 100%;
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: #f5f0ed;
     margin: 150px auto;
     font-size: 44px;  
+    font-weight: bold;
 }
 
 .cajalinea1 {
     width: 110px;
-    border: 1px solid white;
-    color: white;
-    margin-top: -125px;
-  
-    
+    border: 1px solid #f5f0ed;
+    color: #f5f0ed;
+    margin-top: -125px;    
 }
 
 .cajatexto1 {
     width: 100%;
     height: 50px;
-    color: white;
+    color: #f5f0ed;
     font-size: 16px;
     text-align: center;
     padding-left:400px ;
@@ -116,7 +115,7 @@ h1 {
 /*CONFIGURACION DE LA LISTA MENU ENLAZADO*/
 
 a {
-    color: white;
+    color: #f5f0ed;
     text-decoration: none;
 }
 
@@ -131,7 +130,7 @@ ul {
 }
 
 li {
-    color: white;
+    color: #f5f0ed;
     float: left;
     margin-left: 25px;
     font-weight: bold;
@@ -145,6 +144,7 @@ li {
     height: 400px;
     float: left;
     background-color: #d03b40;
+    
 }
 
 .caja2 {
@@ -158,10 +158,11 @@ li {
     width: 100%;
     height: 50px;
     font-size: 28px;
-    color: #f5f0ed;
+    color: #ded6c0;
     margin: 115px auto;
     text-align: center;
     line-height: 1.2;
+    font-weight: bold;
 }
 
 .cajatexto3 {
@@ -169,7 +170,7 @@ li {
     height: auto;
     font-size: 16px;
     margin: -80px auto;
-    color: #f5f0ed;
+    color: #ded6c0;
     text-align: center;
     padding-left: 130px;
     padding-right: 130px;
@@ -184,6 +185,7 @@ li {
     margin: 115px auto;
     text-align: center;
     line-height: 1.2;
+    font-weight: bold;
 }
 
 .cajatexto5 {
@@ -209,44 +211,45 @@ li {
     background-attachment: fixed;
     background-size:cover;
     margin-top: 300px;
- 
 
 }
 
 h2 {
     width: 100%;
-    color: white;
+    color: #f5f0ed;
     padding-top:250px;
     font-size: 44px;
     text-align: center;
+    font-weight: bold;
 
 }
 
 .cajalinea2 {
     width: 8%;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid #f5f0ed;
+    color: #f5f0ed;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
+    
 }
 
 .cajatexto6 {
     width: 40%;
     height: 50px;
     font-size: 16px;
-    color: white;
+    color: #f5f0ed;
     text-align:center ;
     margin: 25px auto;
     line-height: 1.2;
 }
 
 .boton1 {
-    border: 3px solid white;
+    border: 3px solid #f5f0ed;
     width: 20%;
     height: 50px;
     margin-left: 540px;
-    color: white;
+    color: #f5f0ed;
     margin-top: 30px;
     padding-top: 15px;
     font-size: 14px;
@@ -259,7 +262,7 @@ h2 {
 .contenedor3 {
     width: 100%;
     height: 500px;
-    border: 1px solid black;
+   
 }
 
 .cajapan {
@@ -433,6 +436,7 @@ h2 {
     text-align: center;
     margin-top: 90px;
     font-size: 28px;
+    font-weight: bold;
 }
 
 .textocontacto {
@@ -461,19 +465,21 @@ h2 {
 .tituloubicacion {
     width: 100%;
     height: 30px;
-    color: #f5f0ed;
+    color: #ded6c0;
     text-align: center;
     margin-top: 90px;
     font-size: 28px;
-}
+    font-weight: bold;
+    }
 
 .textoubicacion {
     width: 100%;
     height: 80px;
     margin-top: 60px;
     text-align: center;
-    color: #f5f0ed;
+    color: #ded6c0;
     font-size: 16px;
+    line-height: 1.3;
 }
 
 .textoderechos {
